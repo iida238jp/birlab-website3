@@ -1,0 +1,168 @@
+{
+  "html_pages": 40,
+  "unique_used_images": 110,
+  "internal_errors": [],
+  "page_counts": {
+    "index.html": {
+      "images": 4,
+      "links": 22
+    },
+    "research/index.html": {
+      "images": 36,
+      "links": 145
+    },
+    "robotic-hand-1/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "fabianethcargo/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "contact/index.html": {
+      "images": 1,
+      "links": 25
+    },
+    "ja/index.html": {
+      "images": 4,
+      "links": 22
+    },
+    "ja/research/index.html": {
+      "images": 36,
+      "links": 145
+    },
+    "ja/robotic-hand-1/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "ja/fabianethcargo/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "ja/contact/index.html": {
+      "images": 1,
+      "links": 25
+    },
+    "ja/publications/index.html": {
+      "images": 1,
+      "links": 354
+    },
+    "ja/resources/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "ja/foodly-project-birl/index.html": {
+      "images": 2,
+      "links": 23
+    },
+    "ja/embodied-intelligence-workshop-in-robosoft-2022/index.html": {
+      "images": 3,
+      "links": 22
+    },
+    "ja/news/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "ja/news/welcome-to-bio-inspired-robotics-lab/fallingpaper/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "ja/human-robot-medical-interaction/index.html": {
+      "images": 1,
+      "links": 31
+    },
+    "ja/utkusoftfingers/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "ja/members/index.html": {
+      "images": 16,
+      "links": 40
+    },
+    "ja/understanding-intelligence-workshop-2023/index.html": {
+      "images": 23,
+      "links": 21
+    },
+    "ja/media-about-birl-research/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "ja/embodied-intelligence-and-soft-robotics-workshop-at-robosoft-2023/index.html": {
+      "images": 3,
+      "links": 23
+    },
+    "ja/events/index.html": {
+      "images": 7,
+      "links": 209
+    },
+    "ja/embodied-artificial-intelligence-and-evolutionary-soft-robotics-workshop-6-march-2024-invitation-only/index.html": {
+      "images": 3,
+      "links": 20
+    },
+    "ja/workshop-on-soft-robotics-for-mixed-reality/index.html": {
+      "images": 18,
+      "links": 22
+    },
+    "publications/index.html": {
+      "images": 1,
+      "links": 354
+    },
+    "resources/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "foodly-project-birl/index.html": {
+      "images": 2,
+      "links": 23
+    },
+    "embodied-intelligence-workshop-in-robosoft-2022/index.html": {
+      "images": 3,
+      "links": 22
+    },
+    "news/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "news/welcome-to-bio-inspired-robotics-lab/fallingpaper/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "human-robot-medical-interaction/index.html": {
+      "images": 1,
+      "links": 31
+    },
+    "utkusoftfingers/index.html": {
+      "images": 2,
+      "links": 20
+    },
+    "members/index.html": {
+      "images": 16,
+      "links": 40
+    },
+    "understanding-intelligence-workshop-2023/index.html": {
+      "images": 23,
+      "links": 21
+    },
+    "media-about-birl-research/index.html": {
+      "images": 0,
+      "links": 1
+    },
+    "embodied-intelligence-and-soft-robotics-workshop-at-robosoft-2023/index.html": {
+      "images": 3,
+      "links": 23
+    },
+    "events/index.html": {
+      "images": 7,
+      "links": 209
+    },
+    "embodied-artificial-intelligence-and-evolutionary-soft-robotics-workshop-6-march-2024-invitation-only/index.html": {
+      "images": 3,
+      "links": 20
+    },
+    "workshop-on-soft-robotics-for-mixed-reality/index.html": {
+      "images": 18,
+      "links": 22
+    }
+  },
+  "external_urls": 560
+}

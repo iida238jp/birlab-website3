@@ -1,0 +1,10 @@
+Original birlab.org typography: Arimo and Poppins, both under the SIL Open Font License 1.1. See the bundled license files.
+
+Fonts downloaded from the original WordPress font service:
+https://fonts.wp.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk37cxcABrE.ttf
+https://fonts.wp.com/s/arimo/v36/P5sfzZCDf9_T_3cV7NCUECyoxNk3CstcABrE.ttf
+https://fonts.wp.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfedw.ttf
+
+License sources:
+https://raw.githubusercontent.com/google/fonts/main/ofl/arimo/OFL.txt
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/OFL.txt
