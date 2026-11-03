@@ -1,13 +1,7 @@
-'use strict';
-const sections = [...document.querySelectorAll('main > section[id]')];
-document.querySelectorAll('.language-link').forEach(link => {
-  link.addEventListener('click', () => {
-    let current = 'home';
-    sections.forEach(section => {
-      if (section.getBoundingClientRect().top <= 160) current = section.id;
-    });
-    const target = new URL(link.href, document.baseURI);
-    target.hash = current;
-    link.href = target.href;
-  });
+/* Navigation is functional without JavaScript; Escape closes the mobile menu. */
+document.addEventListener('keydown',function(event){
+  if(event.key==='Escape'){
+    const menu=document.querySelector('.mobile-navigation');
+    if(menu&&menu.open){menu.open=false;menu.querySelector('summary').focus();}
+  }
 });

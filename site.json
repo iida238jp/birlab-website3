@@ -1,0 +1,190 @@
+{
+  "logo": "assets/images/59124d3dc5-cropped-cropped-birl_no_textv2-5.png",
+  "pages": [
+    {
+      "key": "home",
+      "path": "",
+      "title": {
+        "en": "Bio-Inspired Robotics Laboratory",
+        "ja": "Bio-Inspired Robotics Laboratory"
+      },
+      "active": ""
+    },
+    {
+      "key": "research",
+      "path": "research/",
+      "title": {
+        "en": "Research",
+        "ja": "研究"
+      },
+      "active": "research"
+    },
+    {
+      "key": "members",
+      "path": "members/",
+      "title": {
+        "en": "Members",
+        "ja": "メンバー"
+      },
+      "active": "members"
+    },
+    {
+      "key": "publications",
+      "path": "publications/",
+      "title": {
+        "en": "Publications",
+        "ja": "論文"
+      },
+      "active": "publications"
+    },
+    {
+      "key": "events",
+      "path": "events/",
+      "title": {
+        "en": "Events & News",
+        "ja": "イベント・ニュース"
+      },
+      "active": "events"
+    },
+    {
+      "key": "contact",
+      "path": "contact/",
+      "title": {
+        "en": "Contact",
+        "ja": "お問い合わせ"
+      },
+      "active": "contact"
+    },
+    {
+      "key": "human-robot-medical-interaction",
+      "path": "human-robot-medical-interaction/",
+      "title": {
+        "en": "Workshop: Human-Robot Medical Interaction",
+        "ja": "Workshop: Human-Robot Medical Interaction"
+      },
+      "active": "events"
+    },
+    {
+      "key": "robotic-hand-1",
+      "path": "robotic-hand-1/",
+      "title": {
+        "en": "robotic-hand-1",
+        "ja": "robotic-hand-1"
+      },
+      "active": "research"
+    },
+    {
+      "key": "foodly-project-birl",
+      "path": "foodly-project-birl/",
+      "title": {
+        "en": "FOODLY Project @BIRL",
+        "ja": "FOODLY Project @BIRL"
+      },
+      "active": "research"
+    },
+    {
+      "key": "workshop-on-soft-robotics-for-mixed-reality",
+      "path": "workshop-on-soft-robotics-for-mixed-reality/",
+      "title": {
+        "en": "EPSRC Workshop on Soft Robotics for Mixed Reality, 8-9 December 2022",
+        "ja": "EPSRC Workshop on Soft Robotics for Mixed Reality, 8-9 December 2022"
+      },
+      "active": "events"
+    },
+    {
+      "key": "fabianethcargo",
+      "path": "fabianethcargo/",
+      "title": {
+        "en": "FabianETHCargo",
+        "ja": "FabianETHCargo"
+      },
+      "active": "research"
+    },
+    {
+      "key": "utkusoftfingers",
+      "path": "utkusoftfingers/",
+      "title": {
+        "en": "UtkuSoftFingers",
+        "ja": "UtkuSoftFingers"
+      },
+      "active": "research"
+    },
+    {
+      "key": "understanding-intelligence-workshop-2023",
+      "path": "understanding-intelligence-workshop-2023/",
+      "title": {
+        "en": "‘Understanding Intelligence’ Workshop 2023",
+        "ja": "‘Understanding Intelligence’ Workshop 2023"
+      },
+      "active": "events"
+    },
+    {
+      "key": "embodied-intelligence-and-soft-robotics-workshop-at-robosoft-2023",
+      "path": "embodied-intelligence-and-soft-robotics-workshop-at-robosoft-2023/",
+      "title": {
+        "en": "Embodied Intelligence and Soft Robotics Workshop at RoboSoft 2023",
+        "ja": "Embodied Intelligence and Soft Robotics Workshop at RoboSoft 2023"
+      },
+      "active": "events"
+    },
+    {
+      "key": "embodied-intelligence-workshop-in-robosoft-2022",
+      "path": "embodied-intelligence-workshop-in-robosoft-2022/",
+      "title": {
+        "en": "Embodied Intelligence Workshop at Robosoft 2022",
+        "ja": "Embodied Intelligence Workshop at Robosoft 2022"
+      },
+      "active": "events"
+    },
+    {
+      "key": "news__welcome-to-bio-inspired-robotics-lab__fallingpaper",
+      "path": "news/welcome-to-bio-inspired-robotics-lab/fallingpaper/",
+      "title": {
+        "en": "FallingPaper",
+        "ja": "FallingPaper"
+      },
+      "active": "research"
+    },
+    {
+      "key": "embodied-artificial-intelligence-and-evolutionary-soft-robotics-workshop-6-march-2024-invitation-only",
+      "path": "embodied-artificial-intelligence-and-evolutionary-soft-robotics-workshop-6-march-2024-invitation-only/",
+      "title": {
+        "en": "Embodied Artificial Intelligence and Evolutionary Soft Robotics Workshop, 6 March 2024 (Invitation only)",
+        "ja": "Embodied Artificial Intelligence and Evolutionary Soft Robotics Workshop, 6 March 2024 (Invitation only)"
+      },
+      "active": "events"
+    }
+  ],
+  "redirects": {
+    "news": "events/#news",
+    "resources": "research/#resources",
+    "media-about-birl-research": "events/#media"
+  },
+  "nav": [
+    [
+      "research",
+      "Research",
+      "研究"
+    ],
+    [
+      "members",
+      "Members",
+      "メンバー"
+    ],
+    [
+      "publications",
+      "Publications",
+      "論文"
+    ],
+    [
+      "events",
+      "Events",
+      "イベント"
+    ],
+    [
+      "contact",
+      "Contact",
+      "お問い合わせ"
+    ]
+  ]
+}

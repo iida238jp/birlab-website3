@@ -1,0 +1,440 @@
+[
+  {
+    "page": "home",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 56.828125,
+        "src": "https://birlab.org/wp-content/uploads/2022/02/image.png?w=347",
+        "width": 136
+      },
+      {
+        "alt": "",
+        "height": 577,
+        "src": "https://birlab.org/wp-content/uploads/2021/01/robotic-hand-1.jpg?resize=1345%2C1345",
+        "width": 577
+      },
+      {
+        "alt": "",
+        "height": 577,
+        "src": "https://birlab.org/wp-content/uploads/2020/04/fallingpaper.jpg?resize=2000%2C2000",
+        "width": 577
+      },
+      {
+        "alt": "",
+        "height": 577,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/fabianethcargo.jpg?resize=2000%2C2000",
+        "width": 577
+      },
+      {
+        "alt": "",
+        "height": 577,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/utkusoftfingers.jpg?resize=2000%2C2000",
+        "width": 577
+      }
+    ]
+  },
+  {
+    "page": "research",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 552.828125,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-1.png",
+        "width": 1158
+      },
+      {
+        "alt": "",
+        "height": 350.609375,
+        "src": "https://birlab.org/wp-content/uploads/2023/11/image0-edited.jpeg",
+        "width": 263
+      },
+      {
+        "alt": "",
+        "height": 500.4453125,
+        "src": "https://birlab.org/wp-content/uploads/2020/04/fallingpaper.jpg?w=768",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 278.5625,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/vegebotphoto.jpg?w=640",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 408,
+        "src": "https://birlab.org/wp-content/uploads/2021/02/utkusoftfingers.jpg?w=486",
+        "width": 301
+      },
+      {
+        "alt": "",
+        "height": 323.4921875,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/softsensor.jpg?w=362",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 249.9765625,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/mother_robot.jpg?w=1024",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 385.21875,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/cambridgearm.jpg?w=985",
+        "width": 370.5546875
+      },
+      {
+        "alt": "",
+        "height": 410.1328125,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-2.png?w=151",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 583.015625,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-6.png",
+        "width": 375.3359375
+      },
+      {
+        "alt": "",
+        "height": 221,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-7.png",
+        "width": 148
+      },
+      {
+        "alt": "",
+        "height": 200,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-8.png",
+        "width": 200
+      },
+      {
+        "alt": "",
+        "height": 174,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-9.png",
+        "width": 174
+      },
+      {
+        "alt": "",
+        "height": 156,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-10.png",
+        "width": 198
+      },
+      {
+        "alt": "",
+        "height": 208,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-21.png",
+        "width": 208
+      },
+      {
+        "alt": "",
+        "height": 179,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-12.png",
+        "width": 158
+      },
+      {
+        "alt": "",
+        "height": 209.0625,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-13.png",
+        "width": 160
+      },
+      {
+        "alt": "",
+        "height": 211,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-14.png",
+        "width": 155
+      },
+      {
+        "alt": "",
+        "height": 120.5234375,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-15.png",
+        "width": 179
+      },
+      {
+        "alt": "",
+        "height": 183,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-16.png",
+        "width": 162
+      },
+      {
+        "alt": "",
+        "height": 124.3125,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-17.png",
+        "width": 168
+      },
+      {
+        "alt": "",
+        "height": 178.6328125,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-18.png",
+        "width": 154
+      },
+      {
+        "alt": "",
+        "height": 118,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-19.png",
+        "width": 176
+      },
+      {
+        "alt": "",
+        "height": 87,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-20.png",
+        "width": 183
+      }
+    ]
+  },
+  {
+    "page": "members",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 319.375,
+        "src": "https://birlab.org/wp-content/uploads/2023/12/img_8549-copy.jpg?w=1024",
+        "width": 730
+      },
+      {
+        "alt": "",
+        "height": 406,
+        "src": "https://birlab.org/wp-content/uploads/2023/04/robosoft2023.jpg?w=1024",
+        "width": 725
+      },
+      {
+        "alt": "",
+        "height": 519,
+        "src": "https://birlab.org/wp-content/uploads/2023/04/uiworkshop2023.jpg?w=1024",
+        "width": 734
+      },
+      {
+        "alt": "",
+        "height": 611,
+        "src": "https://birlab.org/wp-content/uploads/2022/06/image-4.png?w=1024",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 410,
+        "src": "https://birlab.org/wp-content/uploads/2022/06/image-3.png?w=1024",
+        "width": 741
+      },
+      {
+        "alt": "",
+        "height": 415,
+        "src": "https://birlab.org/wp-content/uploads/2022/06/image-2.png?w=1024",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 388,
+        "src": "https://birlab.org/wp-content/uploads/2022/06/image-1.png?w=1024",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 673,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/reuniongrouphoto2020.jpg?w=740",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 471,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image.png",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 388,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/birl2018-1.jpg?w=1024",
+        "width": 738
+      },
+      {
+        "alt": "",
+        "height": 495,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/birl2015.jpg?w=740",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 332,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/birl2014.jpg?w=740",
+        "width": 740
+      },
+      {
+        "alt": "",
+        "height": 380,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/birl2012.jpg?w=1024",
+        "width": 738
+      },
+      {
+        "alt": "",
+        "height": 704,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/birl2014-1.jpg",
+        "width": 731
+      },
+      {
+        "alt": "",
+        "height": 549,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/cimg0660.jpg",
+        "width": 731
+      }
+    ]
+  },
+  {
+    "page": "publications",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": []
+  },
+  {
+    "page": "events",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 405.5,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2018agrifoodroboticsws.jpg?w=1024",
+        "width": 1024
+      },
+      {
+        "alt": "",
+        "height": 436.2109375,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2017cambridgesorows.jpg?w=1024",
+        "width": 1024
+      },
+      {
+        "alt": "",
+        "height": 354.0703125,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2016uk-japansorows.jpg?w=1024",
+        "width": 1024
+      },
+      {
+        "alt": "",
+        "height": 320,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2014myoroboticsws.jpg?w=1024",
+        "width": 1024
+      },
+      {
+        "alt": "",
+        "height": 187,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2013soroconference.jpg?w=1024",
+        "width": 1024
+      },
+      {
+        "alt": "",
+        "height": 426,
+        "src": "https://birlab.org/wp-content/uploads/2020/06/2012sorosummerschool.jpg?w=1024",
+        "width": 1024
+      }
+    ]
+  },
+  {
+    "page": "news",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": []
+  },
+  {
+    "page": "media-about-birl-research",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": []
+  },
+  {
+    "page": "resources",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 150,
+        "src": "https://uk.mathworks.com/responsive_image/165/120/0/0/0/cache/matlabcentral/mlc-downloads/downloads/38597bd9-fef2-45b4-a820-5b55da4ebf2b/48f7149f-7f5e-40b8-9b83-6050ec0b4ccb/images/screenshot.png",
+        "width": 153
+      },
+      {
+        "alt": "",
+        "height": 150,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-29.png",
+        "width": 153
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-28.png",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 150,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-30.png",
+        "width": 157
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-31.png",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-32.png",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 150,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-25.png",
+        "width": 150
+      },
+      {
+        "alt": "",
+        "height": 143.765625,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-26.png",
+        "width": 300
+      },
+      {
+        "alt": "",
+        "height": 150,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-24.png",
+        "width": 172
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-23.png",
+        "width": 0
+      },
+      {
+        "alt": "Hartmut Geyer: Research: Motor Control",
+        "height": 0,
+        "src": "https://www.cs.cmu.edu/~hgeyer/Images/Research_MotorControl_Fig3.jpg",
+        "width": 0
+      },
+      {
+        "alt": "",
+        "height": 0,
+        "src": "https://birlab.org/wp-content/uploads/2019/08/image-22.png",
+        "width": 0
+      }
+    ]
+  },
+  {
+    "page": "contact",
+    "bodyFont": "Arimo, sans-serif",
+    "contentWidth": 1158,
+    "images": [
+      {
+        "alt": "",
+        "height": 510,
+        "src": "https://birlab.org/wp-content/uploads/2019/11/img_0008.png?w=597",
+        "width": 597
+      }
+    ]
+  }
+]

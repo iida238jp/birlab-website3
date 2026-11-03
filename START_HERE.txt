@@ -1,0 +1,19 @@
+BIRL WEBSITE — READY TO UPLOAD
+
+1. Unzip BIRL_GitHub.zip.
+2. Open index.html in the extracted folder to preview the website.
+3. Upload the extracted files and folders to your GitHub repository, keeping
+   their names and directory structure. index.html belongs at the repository
+   root. Do not upload the ZIP itself as the website.
+4. In GitHub: Settings > Pages > Build and deployment > Deploy from a branch.
+   Select the branch containing the files and the / (root) folder, then Save.
+
+No npm install, build service, database or API key is required.
+
+GitHub's browser uploader accepts at most 100 files per upload. This package
+contains more than 100 files because it preserves the original research photos.
+Use the staged browser-upload instructions in README.md, or use GitHub Desktop
+to commit the whole extracted folder at once.
+
+The original birlab.org domain and the GitHub repository have NOT been changed.
+Read QA_REPORT.md for the inspection results and remaining archive-link issues.
