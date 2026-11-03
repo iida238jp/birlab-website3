@@ -1,90 +1,32 @@
 {
-  "updated": "2026-11-03",
-  "email": "fumiya-iida@g.ecc.u-tokyo.ac.jp",
-  "nav": ["research", "people", "publications", "community", "join"],
-  "copy": {
-    "en": {
-      "title": "BIRL — Intelligence through the body",
-      "description": "Bio-Inspired Robotics Laboratory. Exploring intelligence through bodies, materials and physical interaction in Tokyo and Cambridge.",
-      "lab": "Bio-Inspired Robotics Laboratory",
-      "skip": "Skip to content", "menu": "Menu", "navLabel": "Main navigation", "language": "Language",
-      "research": "Research", "people": "People", "publications": "Publications", "community": "Community", "join": "Join",
-      "heroLabel": "TOKYO / CAMBRIDGE",
-      "heroTitle": "Intelligence through the <em>body.</em>",
-      "heroText": "We explore how bodies, materials and environments shape intelligence. By building robots, we investigate the principles of adaptive behaviour.",
-      "heroCaption": "Foodly · Food-handling humanoid robot",
-      "tokyo": "The University of Tokyo", "cambridge": "University of Cambridge",
-      "tokyoDept": "Department of Precision Engineering", "cambridgeDept": "Department of Engineering",
-      "researchTitle": "Learning from life.<br>Building to understand.",
-      "researchText": "Three connected themes at the intersection of robotics and biology.",
-      "examples": "EXPERIMENTS & APPLICATIONS", "videoLabel": "IN THE LAB", "play": "Play video", "videoProvider": "Video: BIRL · YouTube",
-      "peopleTitle": "Two places.<br>A shared curiosity.",
-      "peopleText": "Current members in Tokyo and Cambridge, led by Fumiya Iida.",
-      "pi": "Principal investigator", "piName": "Fumiya Iida", "currentMembers": "Current members", "historical": "Members and alumni · BIRL reunion workshop, UCL, London · December 2023",
-      "researcher": "Research associate / assistant", "student": "Student researcher", "phd": "PhD student", "staff": "Support staff", "visitor": "Academic visitor",
-      "publicationsTitle": "Selected publications.", "publicationsText": "Six studies on embodied control, soft sensing, manipulation and locomotion.", "doi": "DOI", "paperLabel": "Selected papers",
-      "communityTitle": "A community<br>of ideas.", "communityText": "Workshops, conferences and time together. Photographs from past gatherings.", "past": "PAST GATHERINGS", "visualCredit": "Photographs: BIRL archive",
-      "joinTitle": "Bring your<br><em>curiosity.</em>", "joinText": "We welcome enquiries from students, researchers, visitors and collaborators interested in bio-inspired robotics.",
-      "joinStudents": "Students", "joinStudentsText": "Tell us about your background, research interests and preferred location.",
-      "joinResearchers": "Researchers & visitors", "joinResearchersText": "Describe your expertise, proposed research and any fellowship or funding route you are considering.",
-      "joinCollaborators": "Collaborators", "joinCollaboratorsText": "Introduce a scientific question or practical challenge that we could explore together.",
-      "enquiry": "Please include a CV, research interests and proposed timing in your enquiry.", "availability": "Positions and admission routes depend on the host institution.", "contact": "CONTACT", "footer": "Bodies. Materials. Intelligence."
-    },
-    "ja": {
-      "title": "BIRL — 身体を通して知能を探る",
-      "description": "Bio-Inspired Robotics Laboratory。東京とケンブリッジで、身体・素材・環境との相互作用から知能を探究する研究室です。",
-      "lab": "Bio-Inspired Robotics Laboratory",
-      "skip": "本文へ移動", "menu": "メニュー", "navLabel": "メインナビゲーション", "language": "言語",
-      "research": "研究", "people": "メンバー", "publications": "論文", "community": "コミュニティ", "join": "参加・募集",
-      "heroLabel": "TOKYO / CAMBRIDGE",
-      "heroTitle": "身体を通して、<br><em>知能を探る。</em>",
-      "heroText": "身体・素材・環境が知能をどのように形づくるのかを探究しています。ロボットをつくり、実験することで、適応的な振る舞いの原理を明らかにします。",
-      "heroCaption": "Foodly · 食品ハンドリング用ヒューマノイドロボット",
-      "tokyo": "東京大学", "cambridge": "ケンブリッジ大学",
-      "tokyoDept": "工学系研究科 精密工学専攻", "cambridgeDept": "工学部",
-      "researchTitle": "生命に学び、<br>つくることで理解する。",
-      "researchText": "ロボティクスと生物学をつなぐ、三つの研究テーマ。",
-      "examples": "実験と応用", "videoLabel": "研究の現場から", "play": "動画を再生", "videoProvider": "動画：BIRL · YouTube",
-      "peopleTitle": "二つの拠点、<br>共通する探究心。",
-      "peopleText": "飯田史也が率いる、東京とケンブリッジの現在のメンバーです。",
-      "pi": "研究代表者", "piName": "飯田 史也 / Fumiya Iida", "currentMembers": "現在のメンバー", "historical": "メンバーと卒業生 · BIRL同窓ワークショップ、UCL・ロンドン · 2023年12月",
-      "researcher": "研究員・研究補助員", "student": "学生研究員", "phd": "博士課程学生", "staff": "研究支援スタッフ", "visitor": "客員研究者",
-      "publicationsTitle": "主な研究論文。", "publicationsText": "身体を活かした制御、柔軟なセンシング、物体操作、移動運動に関する六つの研究。", "doi": "DOI", "paperLabel": "主要論文",
-      "communityTitle": "知を育む、<br>つながり。", "communityText": "ワークショップ、学会、交流のひととき。過去の活動を写真で紹介します。", "past": "これまでの活動", "visualCredit": "写真：BIRLアーカイブ",
-      "joinTitle": "探究心を、<br><em>ともに。</em>", "joinText": "生物に着想を得たロボティクスに関心のある学生、研究者、訪問研究者、共同研究者からのお問い合わせを歓迎します。",
-      "joinStudents": "学生の方へ", "joinStudentsText": "これまでの学習・研究経験、研究の関心、希望する拠点をお知らせください。",
-      "joinResearchers": "研究者・訪問研究者の方へ", "joinResearchersText": "専門分野、研究計画、検討中のフェローシップや研究資金についてご紹介ください。",
-      "joinCollaborators": "共同研究をご検討の方へ", "joinCollaboratorsText": "ともに探究したい学術的な問いや、実社会の課題をお聞かせください。",
-      "enquiry": "お問い合わせには、履歴書、研究の関心、希望時期を添えてください。", "availability": "受入枠や入学手続きは、受入先の大学によって異なります。", "contact": "お問い合わせ", "footer": "身体・素材・知能。"
+  "en": {
+    "lab": "Bio-Inspired Robotics Laboratory",
+    "affiliations": "University of Tokyo / University of Cambridge",
+    "statement": "We explore how bodies, materials and interaction with the world give rise to intelligence.",
+    "skip": "Skip to content",
+    "navigation": "Main navigation",
+    "language": "Language",
+    "sections": {
+      "research": {"heading": "Research", "text": "[Placeholder] A short introduction to our research will be added here."},
+      "people": {"heading": "People", "text": "[Placeholder] An introduction to our laboratory members will be added here."},
+      "publications": {"heading": "Publications", "text": "[Placeholder] Selected publications will be added here."},
+      "community": {"heading": "Community", "text": "[Placeholder] Information about our community activities will be added here."},
+      "join": {"heading": "Join", "text": "[Placeholder] Information about joining the laboratory will be added here."}
     }
   },
-  "research": [
-    {"id":"embodied", "image":"evolution.jpg", "title":{"en":"Embodied Intelligence","ja":"身体知能"}, "text":{"en":"How can physical interaction support learning? We study self-organisation, embodied computation and robots that adapt their own body designs.","ja":"物理的な相互作用は、学習をどのように支えるのでしょうか。自己組織化、身体を活かした計算、自らの身体設計を適応させるロボットを研究します。"}, "caption":{"en":"Physical robot evolution","ja":"実機を用いたロボットの進化"}, "alt":{"en":"A robotic arm assembling small robot bodies in a physical evolution experiment","ja":"実機の進化実験で小型ロボットの身体を組み立てるロボットアーム"}},
-    {"id":"soft", "image":"sensor.jpg", "title":{"en":"Soft Robotics & Touch","ja":"ソフトロボティクスと触覚"}, "text":{"en":"What can a robot learn through touch? Deformable sensors and soft materials connect physical interaction with perception and control.","ja":"ロボットは、触れることで何を知るのでしょうか。変形するセンサと柔らかな素材を通じて、物理的な相互作用を知覚や制御へと結びつけます。"}, "caption":{"en":"Soft robot sensing","ja":"ソフトロボットのセンシング"}, "alt":{"en":"A deformable soft sensor held between two fingers","ja":"指で保持された、変形可能なソフトセンサ"}},
-    {"id":"movement", "image":"hand.jpg", "title":{"en":"Movement & Manipulation","ja":"移動運動と物体操作"}, "text":{"en":"How do bodies enable skilled action? We investigate locomotion, compliant hands and food handling through bio-inspired mechanical design.","ja":"身体は、巧みな動作をどのように可能にするのでしょうか。生物に着想を得た機械設計を通じて、移動運動、柔軟なハンド、食品のハンドリングを研究します。"}, "caption":{"en":"Bio-inspired hand manipulation","ja":"生物に着想を得たハンドによる物体操作"}, "alt":{"en":"A compliant robotic finger and thumb holding a coin","ja":"柔軟なロボットの指で硬貨をつまむ様子"}}
-  ],
-  "examples":[
-    {"image":"papers.jpg","caption":{"en":"RoboScientist · Automated falling-paper experiments","ja":"RoboScientist · 紙の落下を調べる自動実験"},"alt":{"en":"Automated experimental setup for studying falling paper","ja":"紙の落下挙動を調べる自動実験装置"}},
-    {"image":"vegebot.jpg","caption":{"en":"Vegebot · Agri-food robotics in the field","ja":"Vegebot · 農業現場でのロボティクス"},"alt":{"en":"The Vegebot robotic harvesting system in a lettuce field","ja":"レタス畑で稼働する収穫ロボットVegebot"}}
-  ],
-  "videos":[
-    {"id":"IN8cnPKf3Eg","caption":{"en":"Anthropomorphic robot hand for piano playing","ja":"人の手に着想を得たロボットハンドによるピアノ演奏"}},
-    {"id":"e3hGHb9KaB4","caption":{"en":"Falling-paper experiments with different shapes","ja":"さまざまな形状の紙を用いた落下実験"}}
-  ],
-  "members": {
-    "tokyo":[["Miho Fukuzaki","staff"],["Shao Qi","researcher"],["Yuchen Zhou","student"],["Kazufumi Yamamoto","student"],["Kalina Peneva","student"],["Shreya Patki","student"],["Perla Maiolino","visitor"]],
-    "cambridge":[["Veronica Egorova","staff"],["Narges Khadem Hosseini","staff"],["Xiang Wang","researcher"],["David Hardman","researcher"],["Saba Firouznia","researcher"],["Richard Marques Monteiro","phd"],["Xiaoxian (Amanda) Xu","phd"],["Catherine Merchant","phd"]]
-  },
-  "papers":[
-    {"year":2025,"title":"Embodied manipulation with past and future morphologies through an open parametric hand design","authors":"Kieran Gilday, Chapa Sirithunge, Fumiya Iida, Josie Hughes","venue":"Science Robotics","doi":"10.1126/scirobotics.ads6437"},
-    {"year":2025,"title":"Reservoir controllers design though robot-reservoir timescale alignment","authors":"Fan Ye, Arsen Abdulali, Kai-Fung Chu, Xiaoping Zhang, Fumiya Iida","venue":"Communications Engineering","doi":"10.1038/s44172-025-00418-1"},
-    {"year":2024,"title":"Paleoinspired robotics as an experimental approach to the history of life","authors":"Michael Ishida, Fidji Berio, Valentina Di Santo, Neil H. Shubin, Fumiya Iida","venue":"Science Robotics","doi":"10.1126/scirobotics.adn1125"},
-    {"year":2023,"title":"Tactile perception in hydrogel-based robotic skins using data-driven electrical impedance tomography","authors":"David Hardman, Thomas George Thuruthel, Fumiya Iida","venue":"Materials Today Electronics","doi":"10.1016/j.mtelec.2023.100032"},
-    {"year":2023,"title":"Closed-Loop Optimization of Soft Sensor Morphology Using 3D Printing of Electrically Conductive Hydrogel","authors":"Sojiro Sugiura, David Hardman, Thomas George Thuruthel, Yasuhisa Hasegawa, Fumiya Iida","venue":"Advanced Intelligent Systems","doi":"10.1002/aisy.202300152"},
-    {"year":2023,"title":"Self-Regulated Self-Healing Robotic Gripper for Resilient and Adaptive Grasping","authors":"Huijiang Wang, Seppe Terryn, Zhanwei Wang, Guy Van Assche, Fumiya Iida, Bram Vanderborght","venue":"Advanced Intelligent Systems","doi":"10.1002/aisy.202300223"}
-  ],
-  "events":[
-    {"image":"robosoft.jpg","title":{"en":"RoboSoft Conference","ja":"RoboSoft国際会議"},"place":{"en":"Singapore · April 2023","ja":"シンガポール · 2023年4月"},"alt":{"en":"BIRL participants together at the RoboSoft 2023 conference in Singapore","ja":"シンガポールで開催されたRoboSoft 2023でのBIRL参加者"}},
-    {"image":"workshop.jpg","title":{"en":"Understanding Intelligence Workshop","ja":"Understanding Intelligenceワークショップ"},"place":{"en":"Cambridge · February 2023","ja":"ケンブリッジ · 2023年2月"},"alt":{"en":"Participants at the Understanding Intelligence workshop in Cambridge in February 2023","ja":"2023年2月、ケンブリッジでのUnderstanding Intelligenceワークショップ参加者"}}
-  ]
+  "ja": {
+    "lab": "Bio-Inspired Robotics Laboratory",
+    "affiliations": "東京大学 / ケンブリッジ大学",
+    "statement": "身体や素材、そして世界との相互作用から、知能がどのように生まれるのかを探究しています。",
+    "skip": "本文へ移動",
+    "navigation": "メインナビゲーション",
+    "language": "言語",
+    "sections": {
+      "research": {"heading": "研究", "text": "［仮の文章］研究内容の紹介をここに追加します。"},
+      "people": {"heading": "メンバー", "text": "［仮の文章］研究室メンバーの紹介をここに追加します。"},
+      "publications": {"heading": "論文", "text": "［仮の文章］主な研究論文をここに追加します。"},
+      "community": {"heading": "コミュニティ", "text": "［仮の文章］コミュニティ活動の紹介をここに追加します。"},
+      "join": {"heading": "参加・募集", "text": "［仮の文章］研究室への参加に関する案内をここに追加します。"}
+    }
+  }
 }

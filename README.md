@@ -1,32 +1,23 @@
-# BIRL — English / 日本語
+# BIRL minimal prototype
 
-A static, bilingual website for `iida238jp/birlab-website3`.
+Two static homepages: `index.html` (English) and `ja/index.html` (Japanese). No dependencies, images, external requests or production changes.
 
-## Publish on GitHub Pages
+## Preview
 
-Upload the contents of this folder into the repository root, preserving the `ja` and `assets` folders. Replace the existing `index.html`, `style.css`, `script.js` and `README.md`. In repository Settings → Pages, use **Deploy from a branch → main → / (root)**.
+Double-click `index.html`, or run `python3 -m http.server 8765 --bind 127.0.0.1` in this folder and visit http://127.0.0.1:8765/. Use the EN / 日本語 switch to change language.
 
-- English: `https://iida238jp.github.io/birlab-website3/`
-- Japanese: `https://iida238jp.github.io/birlab-website3/ja/`
+## Edit
 
-Both HTML pages are already generated. No installation, backend or build step is needed. Open `index.html` locally for an initial preview; use a local HTTP server for deployment-like checks. Images are stored locally; videos load from YouTube only after activation (or as embedded players when JavaScript is disabled).
+All wording is in **content.json**, organised under `en` and `ja`.
 
-## Editing
+- Opening: `lab`, `affiliations`, `statement`.
+- Sections: `sections.research`, `sections.people`, `sections.publications`, `sections.community`, `sections.join` — edit each `heading` and `text` in both languages.
+- Footer uses `lab`.
 
-`content.json` is the shared source for both languages. Member names, papers, image names and video IDs are shared; prose and captions are translated. `build.py` regenerates both HTML pages using Python 3 and macOS `sips` to read image dimensions. Editing this source is optional: the supplied HTML files work as-is.
+After editing, run **python3 build.py** once to regenerate both homepages. Python uses only its standard library. The generated pages need no build process to view or host.
 
-Navigation contains exactly five section links. The language switch follows the section currently being viewed. The script also handles the mobile menu, keyboard dismissal and embedded video activation.
+`layout.html` is the shared page template; `style.css` controls both languages. `script.js` preserves the section when switching languages. Navigation remains fully visible on mobile and wraps onto additional lines where necessary.
 
-## Content decisions
+This is a local prototype. Nothing was committed to the repository or deployed, because commits on the live Pages branch could publish it. The existing repository's static HTML/CSS and optional Python-generation approach is retained in simplified form.
 
-- Member roles follow the current birlab.org directory, checked 3 November 2026. The original groups some posts as Research Associates/Assistants without distinguishing individual ranks; this wording is retained.
-- No current member portraits were available on that directory. No portraits or positions were invented.
-- The group photograph is explicitly labelled as members and alumni at the December 2023 reunion, rather than a photograph of the current team.
-- Community photographs depict past events. No unverified future events or job openings are listed.
-- Six published papers are included. Titles and complete author lists were cross-checked against Crossref and/or publisher records. The reservoir paper's published title says “though”; this is intentionally preserved despite “through” appearing on birlab.org.
-- Paper figures are omitted where a verified reusable figure could not be retrieved. Research photographs are not passed off as images from the selected papers.
-- Photographs remain BIRL archive material. Original source URLs and credits are recorded in SOURCES.md. No new licence is asserted for these assets.
-
-## Verification
-
-See VALIDATION.md for completed checks and remaining browser verification limits.
+Validation: both language pages, five section anchors, all local file paths and language paths checked; JavaScript syntax and section preservation checked with a mocked DOM. Responsive rules checked at the source level; browser rendering could not be verified because a browser test runtime is unavailable.
