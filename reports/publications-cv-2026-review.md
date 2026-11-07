@@ -1,6 +1,6 @@
 # Publication reconciliation — 7 November 2026
 
-Prepared for review against `5d4f6ed5bde324245e9e35bd5d97bc3f90c64364` on branch `codex/publications-cv-2026`. Do not merge or deploy without a separate instruction. GitHub Pages publishes the root of `main`; this branch is a review artifact.
+Prepared against `5d4f6ed5bde324245e9e35bd5d97bc3f90c64364` on branch `codex/publications-cv-2026`. Publication was subsequently authorised by the user on 7 November 2026. GitHub Pages publishes the root of `main`.
 
 ## Scope and source
 
@@ -62,10 +62,10 @@ There are no repeated DOI targets in either page. Title and similarity checks we
 
 ## Validation
 
-- **55 structural/content checks passed:** HTML5 parsing; unique IDs; all 347 CV mappings; all supplied DOI targets and citation tokens; category order; year heading order and ID accuracy; under-review status transitions; all 68 retained theses; exact English/Japanese bibliographic equality; internal links and fragments; unchanged header/navigation/footer; and the four-page change scope.
+- **57 structural/content checks passed:** HTML5 parsing; unique IDs; all 347 CV mappings; all supplied DOI targets and citation tokens; category order; year heading order and ID accuracy; under-review status transitions; all 68 retained theses; exact English/Japanese bibliographic equality; internal links and fragments; unchanged header/navigation/footer; and the four-page change scope.
 - The build succeeds using the existing Python standard-library generator. `git diff --check` passes. No incoming source links to the replaced numeric year IDs were found.
 - Desktop previews at 1440 px and mobile previews at 390 px in both languages, plus English at 360 px, show 460 records, loaded local fonts/logo, working mobile menus and no horizontal overflow. Long DOI anchors wrap within the viewport. Screenshots of journals, proceedings, long citations and under-review lists were visually inspected. Shared style and responsive rules are unchanged.
-- **599 unique external URLs tested.** See [the link audit](publications-cv-2026-links.csv). There are 379 reachable links, 142 blocked responses (HTTP 403), 54 DNS/TLS/timeout errors, five remote server errors and **19 confirmed legacy 404s**, verified with GET after HEAD. These categories are reported separately. All 314 DOI URLs either reach a publisher (255) or are blocked by it (59); no DOI returns a confirmed 404/410. Publisher blocking is not represented as a broken DOI. Legacy links are retained as requested; unknown replacements are not invented.
+- **601 unique external URLs tested.** See [the link audit](publications-cv-2026-links.csv). There are 379 reachable links, 144 blocked responses (HTTP 403), 54 DNS/TLS/timeout errors, five remote server errors and **19 confirmed legacy 404s**, verified with GET after HEAD. These categories are reported separately. All 316 DOI URLs either reach a publisher (255) or are blocked by it (61); no DOI returns a confirmed 404/410. Publisher blocking is not represented as a broken DOI. Legacy links are retained as requested; unknown replacements are not invented.
 
 HTML5 validation and browser automation used temporary local tools outside the repository. The website gains no runtime or build dependency. Machine-readable results are in [the validation report](publications-cv-2026-validation.json).
 
@@ -85,4 +85,13 @@ Review evidence:
 - `reports/publications-cv-2026-review.md`
 - `reports/publications-cv-2026-validation.json`
 
-Local preview: `http://127.0.0.1:8807/publications/index.html` and `http://127.0.0.1:8807/ja/publications/index.html`. The generated HTML can also be opened directly without a server. To restart the preview, run `python3 -m http.server 8807 --bind 127.0.0.1` from the checkout. The live GitHub Pages site remains on `main` until a separately authorised merge.
+Local preview: `http://127.0.0.1:8807/publications/index.html` and `http://127.0.0.1:8807/ja/publications/index.html`. The generated HTML can also be opened directly without a server. To restart the preview, run `python3 -m http.server 8807 --bind 127.0.0.1` from the checkout. The user’s subsequent request authorises merging the verified publication updates and publishing through the existing GitHub Pages configuration.
+
+## Publication follow-up
+
+All 16 under-review manuscripts from the unchanged supplied CV are present, with exact CV author order and titles. All 314 CV DOI identifiers have direct HTTPS DOI links in both languages. Two additional DOI identifiers were already present in the old publisher URLs and have now been made explicit DOI links as well, for **316 DOI anchors per language**:
+
+- Iida/Hara (1999), “Behavior learning of a face robot based on the characteristics of human instruction”: `10.1163/156855399X00577`.
+- Nurzaman et al. (2014), “Soft Robotics on the Move…”: `10.1089/soro.2014.0012`.
+
+Their titles, authors, journal, volume, issue and pages were verified against Crossref registration records. The original publisher links and bibliographic records are preserved. Neither identifier was inferred for a paper lacking DOI evidence. Both DOI resolvers reach their publishers, whose automated-access responses are HTTP 403; they are classified as blocked, not broken.

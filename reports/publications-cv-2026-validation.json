@@ -268,6 +268,16 @@
       "detail": null
     },
     {
+      "check": "en existing legacy DOI identifiers have direct links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja existing legacy DOI identifiers have direct links",
+      "passed": true,
+      "detail": null
+    },
+    {
       "check": "All CV citation text retained",
       "passed": true,
       "detail": []
@@ -308,16 +318,16 @@
     }
   ],
   "external_links": {
-    "total": 599,
+    "total": 601,
     "summary": {
       "reachable": 379,
       "network/TLS/redirect error": 54,
       "confirmed broken (GET 404/410)": 19,
-      "blocked/rate-limited/auth required": 142,
+      "blocked/rate-limited/auth required": 144,
       "remote server error": 5
     },
     "doi_summary": {
-      "blocked/rate-limited/auth required": 59,
+      "blocked/rate-limited/auth required": 61,
       "reachable": 255
     }
   },
@@ -328,7 +338,7 @@
       "recordCount": 460,
       "imagesLoaded": true,
       "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
-      "doiCount": 314,
+      "doiCount": 316,
       "overflow": [],
       "longDOI": [
         {
@@ -387,7 +397,7 @@
       "recordCount": 460,
       "imagesLoaded": true,
       "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
-      "doiCount": 314,
+      "doiCount": 316,
       "overflow": [],
       "longDOI": [
         {
@@ -446,7 +456,7 @@
       "recordCount": 460,
       "imagesLoaded": true,
       "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
-      "doiCount": 314,
+      "doiCount": 316,
       "overflow": [],
       "longDOI": [
         {
@@ -537,7 +547,7 @@
       "recordCount": 460,
       "imagesLoaded": true,
       "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
-      "doiCount": 314,
+      "doiCount": 316,
       "overflow": [],
       "longDOI": [
         {
@@ -628,7 +638,7 @@
       "recordCount": 460,
       "imagesLoaded": true,
       "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
-      "doiCount": 314,
+      "doiCount": 316,
       "overflow": [],
       "longDOI": [
         {
@@ -751,5 +761,16 @@
         "title": "Iterative product engineering: Evolutionary robot design"
       }
     ]
-  ]
+  ],
+  "publication_follow_up": {
+    "authorised": true,
+    "under_review_papers": 16,
+    "cv_doi_links": 314,
+    "additional_verified_existing_dois": {
+      "lab-journals-163": "10.1163/156855399X00577",
+      "lab-others-1": "10.1089/soro.2014.0012"
+    },
+    "total_doi_links_per_language": 316,
+    "crossref_verification": "Titles, authors, journal, volume, issue and page ranges matched the two original publisher-link records."
+  }
 }
