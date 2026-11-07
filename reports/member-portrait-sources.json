@@ -1,0 +1,91 @@
+[
+  {
+    "member": "Fumiya Iida",
+    "asset": "assets/images/members/fumiya-iida.jpg",
+    "source_page": "https://embodied-intelligence.org/",
+    "source_image": "https://embodied-intelligence.org/wp-content/plugins/ei27-site/ei27-welcome/assets/people/fumiya.jpg",
+    "credit": "Embodied Intelligence conference / Fumiya Iida",
+    "width": 270,
+    "height": 270,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "Qi Shao",
+    "asset": "assets/images/members/qi-shao.png",
+    "source_page": "https://sq2100.com/",
+    "source_image": "https://sq2100.com/images/profile_squ.png",
+    "credit": "Qi Shao",
+    "width": 768,
+    "height": 768,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "Yi Zhang",
+    "asset": "assets/images/members/yi-zhang.jpg",
+    "source_page": "https://sally-00.github.io/",
+    "source_image": "https://embodied-intelligence.org/wp-content/plugins/ei27-site/ei27-welcome/assets/people/yi.jpg",
+    "credit": "Yi Zhang / Embodied Intelligence conference",
+    "width": 600,
+    "height": 600,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "David Hardman",
+    "asset": "assets/images/members/david-hardman.jpg",
+    "source_page": "https://www.dshardman.co.uk/",
+    "source_image": "https://www.dshardman.co.uk/authors/admin/avatar_hufb58affa4465b4440da68fbd88cfabe7_111644_270x270_fill_q75_lanczos_center.jpg",
+    "credit": "David Hardman",
+    "width": 270,
+    "height": 270,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "Xiang Wang",
+    "asset": "assets/images/members/xiang-wang.jpg",
+    "source_page": "https://drf.eng.cam.ac.uk/people/xiang-wang",
+    "source_image": "https://drf.eng.cam.ac.uk/sites/default/files/styles/3_4_sm/public/xiang_square.jpg?h=038a9462&itok=lJASP44t",
+    "credit": "University of Cambridge, Digital Roads of the Future",
+    "width": 600,
+    "height": 800,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "Veronica Egorova",
+    "asset": "assets/images/members/veronica-egorova.jpg",
+    "source_page": "https://taros-conference.org/wp-content/uploads/2023/09/complete-conference-pack-with-av-instructions-and-pub-map.pdf#page=33",
+    "source_image": null,
+    "credit": "TAROS 2023 / Joint Robotics CDT Conference",
+    "width": 744,
+    "height": 759,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained.",
+    "extraction": "Original JPEG /Im4 from PDF page 33, extracted without re-encoding or the overlaid name label."
+  },
+  {
+    "member": "Catherine Merchant",
+    "asset": "assets/images/members/catherine-merchant.jpg",
+    "source_page": "https://agriforwards-students.blogs.lincoln.ac.uk/our-students/our-students-2023-24-cohort/",
+    "source_image": "https://agriforwards-students.blogs.lincoln.ac.uk/files/2023/09/Catherine-Merchant-576x1024.jpg",
+    "credit": "AgriFoRwArdS CDT / Catherine Merchant",
+    "width": 576,
+    "height": 1024,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  },
+  {
+    "member": "Saba Firouznia",
+    "asset": "assets/images/members/saba-firouznia.jpg",
+    "source_page": "https://www.bristol.ac.uk/news/2026/may/researchers-take-soft-robotics-to-new-heights-with-pioneering-tiny-pump-.html",
+    "source_image": "https://www.bristol.ac.uk/media-library/sites/news/2026/may/Robotic%20butterfly%20article%201.jpg",
+    "credit": "Saba Firouznia",
+    "width": 500,
+    "height": 333,
+    "checked": "2026-11-07",
+    "display": "Square crop in CSS; original image bytes retained."
+  }
+]

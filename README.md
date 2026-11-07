@@ -48,6 +48,7 @@ The site has no CMS, database or JavaScript framework.
 - `site.json` defines the page names, paths, menu and old-route mappings.
 - `style.css` controls the shared appearance. `script.js` contains only a small mobile-menu enhancement.
 - Research photographs live in `assets/images/`. Keep their aspect ratios. Add a descriptive `alt` attribute and intrinsic `width` and `height` to new images.
+- Current-member portraits live in `assets/images/members/` and use square CSS crops. Verified image sources and credits are recorded in `reports/member-portrait-sources.json`. Add personal websites only when the member's identity is confirmed; university and research profiles have separate labels.
 - `@ROOT@` inside a content fragment is replaced by the build script with the correct relative path. Use, for example, `@ROOT@research/index.html` rather than `/research/`, so project-hosted Pages links keep working.
 
 For a very quick change, a generated `index.html` can also be edited directly in GitHub's editor. Make the same edit in its matching source fragment before the next rebuild, otherwise it will be overwritten. There is intentionally no automatic rebuild workflow or dependency installation.
