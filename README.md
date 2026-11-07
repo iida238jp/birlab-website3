@@ -37,7 +37,7 @@ Alternatively, GitHub Desktop can commit the complete extracted folder in one op
 
 Home / ホーム, the BIRL logo and the lab title return to the entrance page for the selected language. There is no extra News, Resources or Media item in the primary menu. The EN/日本語 switch keeps the same page. The desktop and mobile menus contain the same six items.
 
-The homepage contains a short introduction, three original research images and three recent dated highlights. Detail pages remain reachable from the main pages. Old `/news/`, `/resources/` and `/media-about-birl-research/` routes have static redirect pages. These are HTML refresh redirects, not server-level HTTP 301 redirects.
+The homepage contains a short introduction, three original research images and current news and upcoming-event highlights. Detail pages remain reachable from the main pages. Old `/news/`, `/resources/` and `/media-about-birl-research/` routes have static redirect pages. These are HTML refresh redirects, not server-level HTTP 301 redirects.
 
 ## Make small updates
 
