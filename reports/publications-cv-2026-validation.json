@@ -1,0 +1,751 @@
+{
+  "date": "2026-11-07",
+  "source": "IidaCV-2026.pdf, publication sections only",
+  "base_commit": "5d4f6ed5bde324245e9e35bd5d97bc3f90c64364",
+  "counts": {
+    "before": 429,
+    "after": 460,
+    "added": 33,
+    "updated": 307,
+    "matched_unchanged": 7,
+    "removed_duplicates": 2,
+    "website_only_preserved": 113,
+    "cv_total": 347,
+    "category_counts": {
+      "under-review": 16,
+      "journals": 169,
+      "others": 43,
+      "books": 15,
+      "conferences": 149,
+      "theses": 68
+    },
+    "relocated": 16
+  },
+  "structural_checks": [
+    {
+      "check": "en valid HTML5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "en unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en record count",
+      "passed": true,
+      "detail": 460
+    },
+    {
+      "check": "en categories",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en all 347 CV entries mapped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en year headings match IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en journal-papers descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en book-chapters descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en reviewed-conference-papers descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en workshop-contributions-and-others descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en thesis-project-reports descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en under-review descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en internal links and fragments",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "en valid HTTPS DOI URLs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "en no duplicate DOI anchors",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "en CV DOI and year mapping",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "en 16 current under-review manuscripts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en all under-review status labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en superseded manuscripts absent from under-review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en energy-budgets manuscript retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en Nazari accepted status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en preprint DOI label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "en preserved website-only bibliographic text",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "en all 68 theses preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja valid HTML5",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ja unique IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja record count",
+      "passed": true,
+      "detail": 460
+    },
+    {
+      "check": "ja categories",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja all 347 CV entries mapped",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja year headings match IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja journal-papers descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja book-chapters descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja reviewed-conference-papers descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja workshop-contributions-and-others descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja thesis-project-reports descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja under-review descending years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja internal links and fragments",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ja valid HTTPS DOI URLs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ja no duplicate DOI anchors",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "ja CV DOI and year mapping",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ja 16 current under-review manuscripts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja all under-review status labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja superseded manuscripts absent from under-review",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja energy-budgets manuscript retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja Nazari accepted status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja preprint DOI label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja preserved website-only bibliographic text",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ja all 68 theses preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "English/Japanese bibliography identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All CV citation text retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Every CV journal venue uses strong/em",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All 20 IOP proceedings mapped to conferences",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Only four tracked publication pages changed",
+      "passed": true,
+      "detail": [
+        "content/en/publications.html",
+        "content/ja/publications.html",
+        "ja/publications/index.html",
+        "publications/index.html"
+      ]
+    },
+    {
+      "check": "en header, navigation and footer unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "ja header, navigation and footer unchanged",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "external_links": {
+    "total": 599,
+    "summary": {
+      "reachable": 379,
+      "network/TLS/redirect error": 54,
+      "confirmed broken (GET 404/410)": 19,
+      "blocked/rate-limited/auth required": 142,
+      "remote server error": 5
+    },
+    "doi_summary": {
+      "blocked/rate-limited/auth required": 59,
+      "reachable": 255
+    }
+  },
+  "browser_checks": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "recordCount": 460,
+      "imagesLoaded": true,
+      "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
+      "doiCount": 314,
+      "overflow": [],
+      "longDOI": [
+        {
+          "href": "https://doi.org/10.1109/telepresence66096.2025.11521539",
+          "width": 331.171875,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1146/annurev-control-063022-094301",
+          "width": 307.8125,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1109/robosoft67810.2026.11522866",
+          "width": 295.265625,
+          "lines": 1
+        }
+      ],
+      "nav": [
+        {
+          "text": "Home",
+          "href": "../index.html",
+          "current": null
+        },
+        {
+          "text": "Research",
+          "href": "../research/index.html",
+          "current": null
+        },
+        {
+          "text": "Members",
+          "href": "../members/index.html",
+          "current": null
+        },
+        {
+          "text": "Publications",
+          "href": "../publications/index.html",
+          "current": "page"
+        },
+        {
+          "text": "Events",
+          "href": "../events/index.html",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "../contact/index.html",
+          "current": null
+        }
+      ],
+      "lang": "en"
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "recordCount": 460,
+      "imagesLoaded": true,
+      "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
+      "doiCount": 314,
+      "overflow": [],
+      "longDOI": [
+        {
+          "href": "https://doi.org/10.1109/telepresence66096.2025.11521539",
+          "width": 331.171875,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1146/annurev-control-063022-094301",
+          "width": 307.8125,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1109/robosoft67810.2026.11522866",
+          "width": 295.265625,
+          "lines": 1
+        }
+      ],
+      "nav": [
+        {
+          "text": "ホーム",
+          "href": "../../ja/index.html",
+          "current": null
+        },
+        {
+          "text": "研究",
+          "href": "../../ja/research/index.html",
+          "current": null
+        },
+        {
+          "text": "メンバー",
+          "href": "../../ja/members/index.html",
+          "current": null
+        },
+        {
+          "text": "論文",
+          "href": "../../ja/publications/index.html",
+          "current": "page"
+        },
+        {
+          "text": "イベント",
+          "href": "../../ja/events/index.html",
+          "current": null
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "../../ja/contact/index.html",
+          "current": null
+        }
+      ],
+      "lang": "ja"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "recordCount": 460,
+      "imagesLoaded": true,
+      "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
+      "doiCount": 314,
+      "overflow": [],
+      "longDOI": [
+        {
+          "href": "https://doi.org/10.1109/telepresence66096.2025.11521539",
+          "width": 293.890625,
+          "lines": 2
+        },
+        {
+          "href": "https://doi.org/10.1146/annurev-control-063022-094301",
+          "width": 289.703125,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1109/robosoft67810.2026.11522866",
+          "width": 277.890625,
+          "lines": 1
+        }
+      ],
+      "nav": [
+        {
+          "text": "Home",
+          "href": "../index.html",
+          "current": null
+        },
+        {
+          "text": "Research",
+          "href": "../research/index.html",
+          "current": null
+        },
+        {
+          "text": "Members",
+          "href": "../members/index.html",
+          "current": null
+        },
+        {
+          "text": "Publications",
+          "href": "../publications/index.html",
+          "current": "page"
+        },
+        {
+          "text": "Events",
+          "href": "../events/index.html",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "../contact/index.html",
+          "current": null
+        }
+      ],
+      "lang": "en",
+      "mobileMenu": [
+        {
+          "text": "Home",
+          "visible": true,
+          "href": "../index.html"
+        },
+        {
+          "text": "Research",
+          "visible": true,
+          "href": "../research/index.html"
+        },
+        {
+          "text": "Members",
+          "visible": true,
+          "href": "../members/index.html"
+        },
+        {
+          "text": "Publications",
+          "visible": true,
+          "href": "../publications/index.html"
+        },
+        {
+          "text": "Events",
+          "visible": true,
+          "href": "../events/index.html"
+        },
+        {
+          "text": "Contact",
+          "visible": true,
+          "href": "../contact/index.html"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "recordCount": 460,
+      "imagesLoaded": true,
+      "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
+      "doiCount": 314,
+      "overflow": [],
+      "longDOI": [
+        {
+          "href": "https://doi.org/10.1109/telepresence66096.2025.11521539",
+          "width": 293.890625,
+          "lines": 2
+        },
+        {
+          "href": "https://doi.org/10.1146/annurev-control-063022-094301",
+          "width": 289.703125,
+          "lines": 1
+        },
+        {
+          "href": "https://doi.org/10.1109/robosoft67810.2026.11522866",
+          "width": 277.890625,
+          "lines": 1
+        }
+      ],
+      "nav": [
+        {
+          "text": "ホーム",
+          "href": "../../ja/index.html",
+          "current": null
+        },
+        {
+          "text": "研究",
+          "href": "../../ja/research/index.html",
+          "current": null
+        },
+        {
+          "text": "メンバー",
+          "href": "../../ja/members/index.html",
+          "current": null
+        },
+        {
+          "text": "論文",
+          "href": "../../ja/publications/index.html",
+          "current": "page"
+        },
+        {
+          "text": "イベント",
+          "href": "../../ja/events/index.html",
+          "current": null
+        },
+        {
+          "text": "お問い合わせ",
+          "href": "../../ja/contact/index.html",
+          "current": null
+        }
+      ],
+      "lang": "ja",
+      "mobileMenu": [
+        {
+          "text": "ホーム",
+          "visible": true,
+          "href": "../../ja/index.html"
+        },
+        {
+          "text": "研究",
+          "visible": true,
+          "href": "../../ja/research/index.html"
+        },
+        {
+          "text": "メンバー",
+          "visible": true,
+          "href": "../../ja/members/index.html"
+        },
+        {
+          "text": "論文",
+          "visible": true,
+          "href": "../../ja/publications/index.html"
+        },
+        {
+          "text": "イベント",
+          "visible": true,
+          "href": "../../ja/events/index.html"
+        },
+        {
+          "text": "お問い合わせ",
+          "visible": true,
+          "href": "../../ja/contact/index.html"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "recordCount": 460,
+      "imagesLoaded": true,
+      "font": "Arimo, Arial, \"Hiragino Kaku Gothic ProN\", \"Yu Gothic\", Meiryo, sans-serif",
+      "doiCount": 314,
+      "overflow": [],
+      "longDOI": [
+        {
+          "href": "https://doi.org/10.1109/telepresence66096.2025.11521539",
+          "width": 267.203125,
+          "lines": 2
+        },
+        {
+          "href": "https://doi.org/10.1146/annurev-control-063022-094301",
+          "width": 236.3125,
+          "lines": 2
+        },
+        {
+          "href": "https://doi.org/10.1109/robosoft67810.2026.11522866",
+          "width": 268.984375,
+          "lines": 2
+        }
+      ],
+      "nav": [
+        {
+          "text": "Home",
+          "href": "../index.html",
+          "current": null
+        },
+        {
+          "text": "Research",
+          "href": "../research/index.html",
+          "current": null
+        },
+        {
+          "text": "Members",
+          "href": "../members/index.html",
+          "current": null
+        },
+        {
+          "text": "Publications",
+          "href": "../publications/index.html",
+          "current": "page"
+        },
+        {
+          "text": "Events",
+          "href": "../events/index.html",
+          "current": null
+        },
+        {
+          "text": "Contact",
+          "href": "../contact/index.html",
+          "current": null
+        }
+      ],
+      "lang": "en",
+      "mobileMenu": [
+        {
+          "text": "Home",
+          "visible": true,
+          "href": "../index.html"
+        },
+        {
+          "text": "Research",
+          "visible": true,
+          "href": "../research/index.html"
+        },
+        {
+          "text": "Members",
+          "visible": true,
+          "href": "../members/index.html"
+        },
+        {
+          "text": "Publications",
+          "visible": true,
+          "href": "../publications/index.html"
+        },
+        {
+          "text": "Events",
+          "visible": true,
+          "href": "../events/index.html"
+        },
+        {
+          "text": "Contact",
+          "visible": true,
+          "href": "../contact/index.html"
+        }
+      ]
+    }
+  ],
+  "duplicate_title_candidates_retained": [
+    [
+      {
+        "id": "cv-journals-161",
+        "category": "journals",
+        "title": "Towards bipedal jogging as a natural result of optimizing walking speed for passively compliant three-segmented legs"
+      },
+      {
+        "id": "lab-conferences-110",
+        "category": "conferences",
+        "title": "Towards bipedal jogging as a natural result of optimizing walking speed for passively compliant three-segmented legs"
+      }
+    ],
+    [
+      {
+        "id": "cv-journals-168",
+        "category": "journals",
+        "title": "Biologically inspired visual odometer for navigation of a flying robot"
+      },
+      {
+        "id": "cv-conferences-137",
+        "category": "conferences",
+        "title": "Biologically inspired visual odometer for navigation of a flying robot"
+      }
+    ],
+    [
+      {
+        "id": "lab-conferences-118",
+        "category": "conferences",
+        "title": "Iterative product engineering: Evolutionary robot design, "
+      },
+      {
+        "id": "lab-others-33",
+        "category": "others",
+        "title": "Iterative product engineering: Evolutionary robot design"
+      }
+    ]
+  ]
+}
