@@ -8,7 +8,7 @@
         "en": "Bio-Inspired Robotics Laboratory",
         "ja": "Bio-Inspired Robotics Laboratory"
       },
-      "active": ""
+      "active": "home"
     },
     {
       "key": "research",
@@ -161,6 +161,11 @@
     "media-about-birl-research": "events/#media"
   },
   "nav": [
+    [
+      "home",
+      "Home",
+      "ホーム"
+    ],
     [
       "research",
       "Research",

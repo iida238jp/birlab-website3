@@ -4,6 +4,7 @@ from pathlib import Path
 from html import escape
 ROOT=Path(__file__).resolve().parent
 D=json.loads((ROOT/'site.json').read_text(encoding='utf-8'))
+PAGE_PATHS={p['key']:p['path'] for p in D['pages']}
 
 def write_page(page,lang):
     path=('ja/' if lang=='ja' else '')+page['path']+'index.html'
@@ -11,7 +12,7 @@ def write_page(page,lang):
     base=os.path.relpath(ROOT,dest.parent).replace(os.sep,'/')+'/'
     if base=='./':base=''
     local=lambda p:base+p
-    nav=''.join('<a href="{}"{}>{}</a>'.format(local(('ja/' if lang=='ja' else '')+key+'/index.html'),' aria-current="page"' if page['active']==key else '',ja if lang=='ja' else en) for key,en,ja in D['nav'])
+    nav=''.join('<a href="{}"{}>{}</a>'.format(local(('ja/' if lang=='ja' else '')+PAGE_PATHS[key]+'index.html'),' aria-current="page"' if page['active']==key else '',ja if lang=='ja' else en) for key,en,ja in D['nav'])
     langs=''.join('<a href="{}" lang="{}" hreflang="{}"{}>{}</a>'.format(local(('ja/' if l=='ja' else '')+page['path']+'index.html'),l,l,' aria-current="page"' if l==lang else '',label) for l,label in [('en','EN'),('ja','日本語')])
     body=(ROOT/'content'/lang/(page['key']+'.html')).read_text(encoding='utf-8')
     # Content URLs are rooted in this site, never at the domain root: works on GitHub project Pages and file://.
