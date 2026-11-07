@@ -283,13 +283,17 @@
       "detail": null
     },
     {
-      "check": "Only four tracked publication pages changed",
+      "check": "Only four publication pages and four review reports changed",
       "passed": true,
       "detail": [
         "content/en/publications.html",
         "content/ja/publications.html",
         "ja/publications/index.html",
-        "publications/index.html"
+        "publications/index.html",
+        "reports/publications-cv-2026-inventory.csv",
+        "reports/publications-cv-2026-links.csv",
+        "reports/publications-cv-2026-review.md",
+        "reports/publications-cv-2026-validation.json"
       ]
     },
     {
