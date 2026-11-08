@@ -2,12 +2,12 @@
   {
     "member": "Fumiya Iida",
     "asset": "assets/images/members/fumiya-iida.jpg",
-    "source_page": "https://embodied-intelligence.org/",
-    "source_image": "https://embodied-intelligence.org/wp-content/plugins/ei27-site/ei27-welcome/assets/people/fumiya.jpg",
-    "credit": "Embodied Intelligence conference / Fumiya Iida",
-    "width": 270,
-    "height": 270,
-    "checked": "2026-11-07",
+    "source_page": "https://sp.t.u-tokyo.ac.jp/UTokyo_Cam/",
+    "source_image": "https://sp.t.u-tokyo.ac.jp/UTokyo_Cam/wp-content/uploads/2024/12/Fumiya-Iida_photo.jpg",
+    "credit": "University of Tokyo / Fumiya Iida",
+    "width": 1000,
+    "height": 1336,
+    "checked": "2026-11-08",
     "display": "Square crop in CSS; original image bytes retained."
   },
   {
