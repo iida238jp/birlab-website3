@@ -16,12 +16,20 @@ h1,h2,h3,h4,.site-name{font-family:Poppins,Arimo,Arial,"Hiragino Kaku Gothic Pro
 .member-card{display:flex;align-items:center;gap:20px;min-height:104px;margin:0;padding:0 0 18px;border-bottom:1px solid var(--line);break-inside:avoid}
 .member-card--text{min-height:0;padding-top:10px;padding-bottom:18px}
 .member-portrait{flex:0 0 104px;width:104px;height:104px;overflow:hidden;background:var(--ground)}
-.member-portrait img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 35%;transform:scale(var(--portrait-scale,1));transform-origin:var(--portrait-origin,50% 35%)}
-.member-portrait--fumiya-iida img{object-position:50% 10%}
-.member-portrait--yi-zhang{--portrait-scale:1.75;--portrait-origin:50% 32%}
+.member-portrait img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:var(--portrait-position,50% 35%);transform:scale(var(--portrait-scale,1));transform-origin:var(--portrait-origin,50% 35%)}
+/* Match head size and eye level while retaining each original photograph. */
+.member-portrait--fumiya-iida{--portrait-position:50% 10%}
+.member-portrait--qi-shao{--portrait-scale:1.08;--portrait-origin:50% 35%}
+.member-portrait--yi-zhang{--portrait-scale:2.3;--portrait-origin:48% 30%}
+.member-portrait--yongkang-huo{--portrait-scale:1.55;--portrait-origin:50% 54%}
+.member-portrait--menna-soliman{--portrait-scale:1.05;--portrait-origin:85% 25%}
 .member-portrait--veronica-egorova{--portrait-scale:1.06}
-.member-portrait--saba-firouznia{--portrait-scale:1.35;--portrait-origin:72% 35%}
-.member-portrait--saba-firouznia img{object-position:80% 35%}
+.member-portrait--xiang-wang{--portrait-scale:1.25;--portrait-position:50% 30%;--portrait-origin:50% 40%}
+.member-portrait--david-hardman{--portrait-scale:1;--portrait-position:50% 35%}
+.member-portrait--saba-firouznia{--portrait-scale:1.15;--portrait-position:94% 35%;--portrait-origin:50% 15%}
+.member-portrait--richard-monteiro{--portrait-scale:1.06;--portrait-origin:75% 30%}
+.member-portrait--xiaoxian-xu{--portrait-scale:2.1;--portrait-origin:38% 47%}
+.member-portrait--catherine-merchant{--portrait-scale:1.2;--portrait-position:50% 50%;--portrait-origin:75% 25%}
 .member-name{font-weight:700;margin:0;line-height:1.5}
 .member-links{font-size:.9rem;line-height:1.5;margin:7px 0 0}
 @media(max-width:800px){.member-grid{gap:18px 24px}.member-card{gap:16px}.member-portrait{flex-basis:88px;width:88px;height:88px}}
