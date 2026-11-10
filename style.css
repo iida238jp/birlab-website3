@@ -38,7 +38,7 @@ h1,h2,h3,h4,.site-name{font-family:Poppins,Arimo,Arial,"Hiragino Kaku Gothic Pro
 /* Compact six-project homepage gallery: three columns desktop, two on small screens. */
 .home-gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 20px;align-items:stretch}
 .home-gallery figure{min-width:0}
-.home-gallery figure a{display:block;overflow:hidden;background:var(--ground)}
+.home-gallery figure > a{display:block;overflow:hidden;background:var(--ground)}
 .home-gallery img{display:block;width:100%!important;height:155px!important;max-height:none;object-fit:cover;margin:0}
 .home-gallery figcaption{font-size:.9rem;line-height:1.4;margin-top:8px}
 @media(max-width:620px){.home-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.home-gallery img{height:120px!important}.home-gallery figcaption{font-size:.82rem}}
